@@ -6,10 +6,8 @@
 from random import randint
 num = randint(1, 1000)
 
-remainder = num%2
-
 print(f"You rolled a...{num}")
-if remainder == 1:
+if num % 2 != 0:
     print(f"{num} is odd.")
 else:
     print(f"{num} is even.")
