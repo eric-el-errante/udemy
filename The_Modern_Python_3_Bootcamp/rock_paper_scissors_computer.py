@@ -27,3 +27,4 @@ elif p1 == "paper":
 elif p1 == "scissors":
     if comp == "rock": print("computer wins!")
     else: print("player wins!")
+
