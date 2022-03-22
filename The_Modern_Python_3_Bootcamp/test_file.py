@@ -1,9 +1,14 @@
-cart = []
+numbers = [1,2,3,4]
 
-while True:
-    item = input("Add something to the cart? Type q to quit:")
-    if item != 'q':
-        cart.append(item)
-    else:
-        break
-print(cart)
+print(numbers[0])
+print(numbers[1])
+print(numbers[2])
+print(numbers[3])
+
+for num in numbers:
+    print(num)
+
+x = 0
+while x < len(numbers):
+    print(f"Index: {x} is {numbers[x]}")
+    x += 1
